@@ -4,7 +4,7 @@ import '@/sass/main.scss'
 Vue.use(Vuetify);
 
 const theme = {
-    primary: '#1F7087',
+    primary: '#6200EA',
     secondary: '#4DB6AC',
   }
   
