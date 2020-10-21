@@ -4,11 +4,11 @@
 
 Responsive Layout
 ### Mobile
-![Alt text](src/assets/mobile-1?raw=true "Layout Mobile 1")
-![Alt text](src/assets/mobile-2?raw=true "Layout Mobile 2")
+![Alt text](src/assets/mobile-1.JPG?raw=true "Layout Mobile 1")
+![Alt text](src/assets/mobile-2.JPG?raw=true "Layout Mobile 2")
 ### Desktop 
-![Alt text](src/assets/desktop-1?raw=true "Layout Desktop 1")
-![Alt text](src/assets/desktop-2?raw=true "Layout Desktop 2")
+![Alt text](src/assets/desktop-1.JPG?raw=true "Layout Desktop 1")
+![Alt text](src/assets/desktop-2.JPG?raw=true "Layout Desktop 2")
 
 ## Covered Points
 * Responsive Layout
