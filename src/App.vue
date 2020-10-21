@@ -1,8 +1,6 @@
 <template>
-  <v-app style="background-image: url('./assets/espaco.jpg')">
-    <v-main>
+  <v-app>
       <Dashboard/>
-    </v-main>
   </v-app>
 </template>
 

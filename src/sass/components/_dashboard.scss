@@ -4,7 +4,7 @@
 
 .slide-leave-active,
 .slide-enter-active {
-  transition: 1s;
+  transition: 0.5s;
 }
 .slide-enter {
   transform: translate(0, 100%);

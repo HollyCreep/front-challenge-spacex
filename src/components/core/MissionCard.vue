@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card :class="$vuetify.breakpoint.xsOnly ? 'mx-2' : ''">
     <v-carousel
       cycle
       height="400"
@@ -27,7 +27,7 @@
   <v-card-text>
      <span>{{mission.details}}</span>
   </v-card-text>
-     <div class="text-center pa-4"><v-btn color="primary" class="fl" :href="link">See more</v-btn></div>
+     <div class="text-center pa-4"><v-btn color="secondary" class="fl" :href="link">See more</v-btn></div>
   </v-card>
 </template>:src="item.src"
 
