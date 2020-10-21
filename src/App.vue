@@ -1,18 +1,29 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>{{ launchesPast }}</div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+import gql from 'graphql-tag'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
+  },
+  apollo: {
+    launchesPast: gql`query {
+      launchesPast(limit: 10) {
+    mission_name
+    launch_date_local
+    launch_site {
+      site_name_long
+    }
   }
+    }`,
+  },
 }
 </script>
 
