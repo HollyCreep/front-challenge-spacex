@@ -5,7 +5,7 @@
 
 <script>
   export default {
-    name: 'MissionItem',
+    name: 'MissionCard',
 
     data: () => ({
     }),
