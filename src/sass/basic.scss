@@ -1,0 +1,14 @@
+.v-main {
+   background-image: url("../assets/espaco.jpg");
+   background-color: $bg_color;
+   background-size: cover;
+}
+.v-application {
+   
+  font-family: $body-font-family, sans-serif !important;
+  font-weight: 300;
+
+  a {
+      text-decoration: none;
+   }
+}

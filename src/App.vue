@@ -1,19 +1,19 @@
 <template>
-  <v-app>
+  <v-app style="background-image: url('./assets/espaco.jpg')">
     <v-main>
-      <HelloWorld/>
+      <Dashboard/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Dashboard from './views/Dashboard';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Dashboard,
   },
 
   data: () => ({
